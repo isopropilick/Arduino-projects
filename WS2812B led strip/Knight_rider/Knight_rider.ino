@@ -6,7 +6,7 @@ void setup() {
   LEDS.addLeds<WS2812B,7>(leds, NUM_LEDS);
 }
 void loop () {
-  Rider(1, 42, 4, 0x05FF00);//cycles,speed,trace,HEXcolor
+  Rider(1, 52, 4, 0x05FF00);//cycles,speed,trace,HEXcolor
 }
 void Rider(uint16_t cycles, uint16_t speed, uint8_t width, uint32_t color) {
   uint32_t old_val[NUM_LEDS];
